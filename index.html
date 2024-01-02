@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Live Gallery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/464a8e8d14.js"></script>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1 class="display-1">Simple Live Gallery</h1>
+        <h5 class="mb-5 text-muted">Click the image to know more.</h5>
+    </div>
+
+    <div>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk" style = "z-index: 10; right: 20px;">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+      </label>
+    </div>
+
+    <div class="container">
+        <div class="row">
+        <div class="gallery">
+          <figure>
+            <img class="card" src="https://images.unsplash.com/photo-1448814100339-234df1d4005d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt=""/>
+            <figcaption>Daytona Beach <small>United States</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card" src="img/pexels-soginoto-18162416.jpg" alt=""/>
+            <figcaption>Gunung Rinjani <small>Lombok</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card" src="img/wallhaven-x6pl9v.jpg" alt=""/>
+            <figcaption>Osaka <small>Jepang</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card" 
+            src="https://images.unsplash.com/photo-1439798060585-62ab242d7724?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
+            <figcaption>Yellowstone National Park <small>United States</small></figcaption>
+          </figure>
+          
+          <figure>
+            <img class = "card" src="img/wallhaven-ymjgwx.jpg" alt="" />
+            <figcaption>Kratos and Athreus <small>God of War</small></figcaption>
+          </figure>
+          
+          <figure>
+            <img class = "card" src="https://images.unsplash.com/photo-1441906363162-903afd0d3d52?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
+            <figcaption>Highlands <small>United States</small></figcaption>
+          </figure>
+          
+          <figure>
+            <img class = "card" src="http://www.thelandofsnows.com/wp-content/uploads/2015/03/Ladakh-Pangong-Lake-1024x618.jpg" alt="" />
+            <figcaption>Pangong Tso, Leh <small>India</small></figcaption>
+          </figure>
+          
+          <figure>
+            <img class = "card" src="img/wallhaven-858lz1.png" alt="" />
+            <figcaption>Night Town <small>TankerNejla</small></figcaption>
+          </figure>
+          
+          <figure>
+            <img class = "card" src="https://images.unsplash.com/photo-1440339738560-7ea831bf5244?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
+            <figcaption>Quiraing, Portree <small>United Kingdom</small></figcaption>
+          </figure>
+          
+          <figure>
+            <img class = "card" src="https://images.indianexpress.com/2019/05/taj-mahal-amp.jpg" alt="" />
+            <figcaption>Taj Mahal, Agra <small>India</small></figcaption>
+          </figure>
+          
+          <figure>
+            <img class = "card"  src="https://images.thrillophilia.com/image/upload/s--48fr2Gab--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/239/746/original/1587752090_1576830344_auli1.jpg.jpg.jpg" alt="" />
+            <figcaption>Auli, Uttarakhand <small>India</small></figcaption>
+          </figure>
+          
+          <figure>
+            <img class = "card"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blue_Kodaikanal.jpg/1280px-Blue_Kodaikanal.jpg" alt="" />
+            <figcaption>Kodaikanal, TamilNadu<small>India</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="img/wallhaven-ey3odw.jpg" alt="" />
+            <figcaption>Yorozuya<small>Gintama</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hampi_virupaksha_temple.jpg/1920px-Hampi_virupaksha_temple.jpg" alt="" />
+            <figcaption>Hampi, Karnataka<small>India</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="img/sun.jpg" alt="" />
+            <figcaption>Sun Rays<small>Todd</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="https://images.unsplash.com/photo-1600665784732-4980583edb07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" alt="Palm Atlantis" />
+            <figcaption>Palm Atlantis, Dubai<small>UAE</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="img/pohon.jpg" alt="" />
+            <figcaption>Trees<small>SkyWolfX</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="img/gunung.jpg" alt="" />
+            <figcaption>Crescent Moon<small>Justjon</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="img/wallhaven-zyvwyy.jpg" alt="" />
+            <figcaption>Half-Life <small>NipNoz</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="https://images.unsplash.com/photo-1438159510492-d44b489bd1b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80" alt="Langkawi SkyCab" />
+            <figcaption>Langkawi SkyCab<small>Malaysia</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="https://images2.alphacoders.com/476/thumb-1920-476280.jpg" alt="Petronas Towers" />
+            <figcaption>Petronas Towers, Kuala Lumpur<small>Malaysia</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Yercaud_lake.jpg/1920px-Yercaud_lake.jpg" alt="" />
+            <figcaption>Yercaud, Tamil Nadu<small>India</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="img/wallhaven-jxl31y.png" alt="" />
+            <figcaption>Zero Two<small>Shapehand</small></figcaption>
+          </figure>
+
+          <figure>
+            <img class = "card"  src="https://images.unsplash.com/photo-1556964188-45cac6af0275?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3264&q=80" alt="Langkawi Mangrove" />
+            <figcaption>Langkawi Mangrove<small>Malaysia</small></figcaption>
+          </figure>
+
+
+        <!--Copy the figure tags along with the content and paste it above this comment.
+            Replace the link in the src attribute with the image link.
+            Also change the content in figcaption and small tags according to the location-->
+        </div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          style="display: none"
+        >
+          <symbol id="close" viewBox="0 0 18 18">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              fill="#FFFFFF"
+              d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507,S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,
+                0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,
+                0-1.068L7.94,9.035L5.435,6.507c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,
+                1.059,s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"
+            />
+          </symbol>
+        </svg>
+      </div>
+    </div>
+
+    <section id="contact">
+      <div class="links-icons">
+        <a href="https://www.facebook.com/mohdfawad99"
+          ><i class="fab fa-facebook fa-2x"></i
+        ></a>
+        <a href="https://twitter.com/_fawaaad"
+          ><i class="fab fa-twitter fa-2x"></i
+        ></a>
+        <a href="https://www.instagram.com/_fawaaad/"
+          ><i class="fab fa-instagram fa-2x"></i
+        ></a>
+        <a href="https://www.youtube.com/"
+          ><i class="fab fa-youtube-square fa-2x"></i
+        ></a>
+      </div>
+    </section>
+
+    <style>
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    </style>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">UP</button>
+
+    <script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function () {
+        scrollFunction();
+    };
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
